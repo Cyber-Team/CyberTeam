@@ -74,7 +74,7 @@ function Footer() {
           <div class="py-6 text-center bg-[#1A1920] dark:bg-gray-800 dark:text-gray-400">
             <span>
               {" "}
-              &copy; Copyright 2024 . All Rights Reserved : The Linux Club
+              &copy; Copyright 2024 . All Rights Reserved : CyberTeam
             </span>
           </div>
         </div>

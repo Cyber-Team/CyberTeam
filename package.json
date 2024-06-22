@@ -1,8 +1,7 @@
 {
   "name": "supinx",
   "private": false,
-  "homepage": "https://cyber-team.github.io/CyberTeam/",
-  "baseurl": "/CyberTeam",
+  "homepage": "https://cyber-team.github.io/CyberTeam",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

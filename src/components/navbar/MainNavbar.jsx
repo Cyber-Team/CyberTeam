@@ -43,15 +43,15 @@ import {
 
 // nav list menu
 const navListMenuItems = [
-  {
-    title: "Forums",
-    description: "Linux Club's own forum and discussion area.",
-    link: "https://forum.cyberteam.org/",
-  },
+  // {
+  //   title: "Forums",
+  //   description: "Cyber Team's own forum and discussion area.",
+  //   link: "https://forum.cyberteam.org/",
+  // },
   {
     title: "Cloud",
     description:
-      "Linux Club's own online management tool to manage club's activities",
+      "Cyber Team's own online management tool to manage club's activities",
     link: "https://cloud.cyberteam.org/",
   },
 ];
@@ -69,18 +69,18 @@ const navListMenuItemsAboutUs = [
     icon: UserGroupIcon,
     link: "#/about",
   },
-    // {
-    //   title: "Blog",
-    //   description: "Find the perfect solution for your needs.",
-    //   icon: Bars4Icon,
-    //   link: "#/blogs",
-    // },
-  {
-    title: "Members",
-    description: "Amazing group of inquisitive people.",
-    icon: UserGroupIcon,
-    link: "#/members",
-  },
+    {
+      title: "Blog",
+      description: "Find the perfect solution for your needs.",
+      icon: Bars4Icon,
+      link: "#/blogs",
+    },
+  // {
+  //   title: "Members",
+  //   description: "Amazing group of inquisitive people.",
+  //   icon: UserGroupIcon,
+  //   link: "#/members",
+  // },
   // {
   //   title: "Leaderboard",
   //   description: "leaderboard for club members.",

@@ -30,7 +30,7 @@ function Root() {
     setText(value);
     if (text == "sudo cybertea") {
       setText("");
-      window.location.href = "/#/cli";
+      window.location.href = "https://kali.cyberfoss.org";
     }
   }
 
@@ -59,7 +59,7 @@ function Root() {
         </div>
 
         <div className="sm:w-2/6  flex flex-col mt-5 justify-center items-center pl-5 pr-5">
-          <TerminalWindow title="lug:~$cli-v.0.0.1x" children="coiacascasuin">
+          <TerminalWindow title="CyberTeam:~$cli-v.0.0.1x" children="coiacascasuin">
             <p>
               <b className="text-blue-gray-600">cyberteam:~$ </b>{" "}
               <b className="text-light-green-300">sudo cyberteam </b>

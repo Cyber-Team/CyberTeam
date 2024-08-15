@@ -23,16 +23,16 @@ function EventsTimeLine() {
   const valueRef7 = useRef(null);
   const valueRef8 = useRef(null);
 
-  function handleChange() {
-    let value = valueRef.current.value;
-    console.log(value);
-    setText(value);
-    if (text == "man fos") {
-      setText("");
-      console.log(value + "  i am gere ");
-      window.location.href = "/#/adrenaline";
-    }
-  }
+  // function handleChange() {
+  //   let value = valueRef.current.value;
+  //   console.log(value);
+  //   setText(value);
+  //   if (text == "man fos") {
+  //     setText("");
+  //     console.log(value + "  i am gere ");
+  //     window.location.href = "/#/adrenaline";
+  //   }
+  // }
   function handleChange2() {
     let value2 = valueRef2.current.value;
     console.log(value2);

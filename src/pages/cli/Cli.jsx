@@ -19,7 +19,7 @@ export default function Cli() {
               <li>date: returns current date</li>
               <li>greet: returns a greeting message</li>
               <li>random: returns a random number</li>
-              <li>who-lug: returns info about linux club</li>
+              <li>who-lug: returns info about Cyber Team</li>
               <li>clear: clears the terminal</li>
               <li>
                 event-list: returns the list of all events conducted by linux
@@ -42,7 +42,7 @@ export default function Cli() {
         break;
 
       case "greet":
-        response = "Greetings from The Linux Club!";
+        response = "Greetings from The Cyber Team!";
         break;
 
       case "random":
@@ -53,9 +53,9 @@ export default function Cli() {
         response = null;
         break;
 
-      case "who-lug":
+      case "who-CyberTeam":
         response =
-          "The 'Linux Club' of VIT, Chennai was created to spread awareness of Free and Open Source Software (FOSS) through Linux flavours. It believes in developing collaborative open-source projects.It encourages users to understand the systems and softwares they use on a fundamental level. Which can be achieved only using non-proprietary tools.It aims to get members to contribute to FOSS, make them more industry ready and to promote GNU/Linux in General.";
+          "The 'Cyber Team' of VIT, Chennai was created to spread awareness of Free and Open Source Software (FOSS) through Linux flavours. It believes in developing collaborative open-source projects.It encourages users to understand the systems and softwares they use on a fundamental level. Which can be achieved only using non-proprietary tools.It aims to get members to contribute to FOSS, make them more industry ready and to promote GNU/Linux in General.";
         break;
 
       case "event-list":
@@ -68,8 +68,11 @@ export default function Cli() {
               <li>03: Hackers' Horizon</li>
               <li>04: GSOC Made Easy</li>
               <li>05: LINUX Installation Booth</li>
-              <li>06: Password</li>
+              <li>06: Password'23</li>
               <li>07: Cyber-0-Day 2.0</li>
+              <li>08: Password'24</li>
+              <li>09: Docker Workshop</li>
+              <li>10: Paradox</li>
             </ul>
           </div>
         );
@@ -85,11 +88,11 @@ export default function Cli() {
         break;
       case "gsoc-made-easy":
         response =
-          "Linux Club, VIT Chennai successfully organised “Google Summer of Code Made Easy” , purpose of the event was to guide students about GSOC. Beleswar Prasad Padhi, president of LINUX CLUB was speaker of the event, he participated in GSoC and contributed to the well-known Metasploit cybersecurity framework";
+          "We successfully organised “Google Summer of Code Made Easy” , purpose of the event was to guide students about GSOC. Beleswar Prasad Padhi, president of Cyber Team was speaker of the event, he participated in GSoC and contributed to the well-known Metasploit cybersecurity framework";
         break;
       case "linux-installation-booth":
         response =
-          "Linux Club, VIT Chennai successfully organised “LINUX INSTALLATION BOOTH”, where we helped students both install Linux OS and dual boot their systems. Our aim was to make Linux accessible to everyone, regardless of their technical background, and we are proud to say that we achieved this goal. During the event, we provided step-by-step guidance and assistance to students installing Linux on their systems. We welcomed more than 200 participants. It was amazing to see the enthusiasm and curiosity of the students who participated in the booth. Many of them were interested in learning more about Linux and its potential.";
+          "We successfully organised “LINUX INSTALLATION BOOTH”, where we helped students both install Linux OS and dual boot their systems. Our aim was to make Linux accessible to everyone, regardless of their technical background, and we are proud to say that we achieved this goal. During the event, we provided step-by-step guidance and assistance to students installing Linux on their systems. We welcomed more than 200 participants. It was amazing to see the enthusiasm and curiosity of the students who participated in the booth. Many of them were interested in learning more about Linux and its potential.";
         break;
       case "password":
         response =
@@ -193,8 +196,8 @@ export default function Cli() {
         response = (
           <div>
             <ul>
-              <li>President : Dhananjay</li>
-              <li>Vice-President : Aditya</li>
+              <li>Founder : Abhishek Kumar</li>
+              <li>Co-Founder : Aditi Rai</li>
               <li>Technical Head : Animesh</li>
               <li>Frontend Lead : Dhananjay</li>
               <li>President : Abhishek</li>

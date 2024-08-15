@@ -9,29 +9,15 @@ function Contact() {
       label: "Technical",
       value: "Technical",
       desc: `technical@cyberteam.org`,
-      head: "Animesh Rai",
-      contact: "9669662159",
-    },
-    {
-      label: "Operations",
-      value: "Operations",
-      desc: `operations@cyberteam.org`,
-      head: "Srideep Aalla",
-      contact: "9392658762",
+      head: "Abhishek Kumar",
+      contact: "99334138650",
     },
     {
       label: "Management",
       value: "Management",
       desc: `management@cyberteam.org`,
-      head: "Yuvraj Singh",
-      contact: "8929740534",
-    },
-    {
-      label: "Media",
-      value: "Media",
-      desc: `media@cyberteam.org`,
-      head: "Hrishikesh Naramparambath",
-      contact: "9940316676",
+      head: "Aditi Rai",
+      contact: "9335985354",
     },
     // {
     //   label: "Advisory",
@@ -40,20 +26,20 @@ function Contact() {
     //   head:"",
     //   contact:""
     // },
-    {
-      label: "Treasury",
-      value: "Treasury",
-      desc: `treasury@cyberteam.org`,
-      head: "K Revanth Sai",
-      contact: "9705039703",
-    },
-    {
-      label: "Content",
-      value: "Content",
-      desc: `content@cyberteam.org`,
-      head: "Chitranshu Gupta",
-      contact: "9389786149",
-    },
+    // {
+    //   label: "Treasury",
+    //   value: "Treasury",
+    //   desc: `treasury@cyberteam.org`,
+    //   head: "K Revanth Sai",
+    //   contact: "9705039703",
+    // },
+    // {
+    //   label: "Content",
+    //   value: "Content",
+    //   desc: `content@cyberteam.org`,
+    //   head: "Chitranshu Gupta",
+    //   contact: "9389786149",
+    // },
   ];
   return (
     <>
@@ -85,7 +71,7 @@ function Contact() {
         <div className="flex flex-col items-center -mt-20 font-space text-[#da0404]">
           <img src={LugIcon} className="w-20 h-20   rounded-full" />
           <div className="flex items-center space-x-2 mt-2">
-            <p className="text-2xl text-center">The Linux Club</p>
+            <p className="text-2xl text-center">The Cyber Team</p>
             <span className="bg-white rounded-full p-1" title="Verified">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -104,10 +90,10 @@ function Contact() {
             </span>
           </div>
           <p className="text-[#da0404] text-center">
-            Vellore Institute of Technology, Chennai Campus
+            A Community Of Aegis
           </p>
           <p className="text-sm text-center text-[#da0404]">
-            Kelambakkam - Vandalur Rd, Rajan Nagar, Chennai, Tamil Nadu 600127
+            Workshops , CTF , Hands-On Experience and much more ...
           </p>
         </div>
       </div>
@@ -152,7 +138,7 @@ function Contact() {
               />
             </svg>
           </div>
-          <h6 className="text-xl mt-5 font-semibold text-[#da0404]">President</h6>
+          <h6 className="text-xl mt-5 font-semibold text-[#da0404]">Founder</h6>
           <p className="mt-2 mb-4 text-[#da0404]">Abhishek </p>
           <p className="mt-2 mb-4 text-[#da0404]">+91 9334138650</p>
         </div>
@@ -174,10 +160,10 @@ function Contact() {
             </svg>
           </div>
           <h5 className="text-xl mt-5 font-semibold text-[#da0404]">
-            Vice-President
+            Co-Founder
           </h5>
-          <p className="mt-2 mb-4 text-[#da0404]">Aditya Kushwaha</p>
-          <p className="mt-2 mb-4 text-[#da0404]">+91 8072320756</p>
+          <p className="mt-2 mb-4 text-[#da0404]">Aditi Rai</p>
+          <p className="mt-2 mb-4 text-[#da0404]">+91 9335985354</p>
         </div>
         {/* <div className="w-[300px] sm:w-[300px]  px-6 mx-5 text-center">
           <div className=" p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">

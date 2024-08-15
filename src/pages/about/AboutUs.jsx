@@ -18,7 +18,7 @@ function AboutUs() {
         <h2 className="my-5 text-base font-medium tracking-tight text-[#da0404] uppercase">
           <Typewriters
             options={{
-              strings: ["About", "The Linux Club"],
+              strings: ["About", "The Cyber Team"],
               autoStart: true,
               loop: true,
             }}
